@@ -1,0 +1,41 @@
+$width: 30px;
+$height: 30px;
+$borderWidth: 1px;
+$shadow:0 0 2em black;
+$marginLeft: -20px;
+$marginTop: -5px;
+$color: black;
+
+
+.Rings {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  @mixin ringsThePrecious ($width, $height, $borderWidth,$color, $shadow, $marginLeft, $marginTop) {
+      width: $width;
+      height: $height;
+      border-radius: 50%;
+      border:solid;
+      border-width: $borderWidth;
+      color: $color;
+      box-shadow: $shadow;
+      margin-left: $marginLeft;
+      margin-top: $marginTop;
+ }
+
+ @for $i from 1 through 6 {
+     .Rings#{$i} {
+         @include ringsThePrecious($width + $i*10,$height + $i*10,2px + $i,$color,0 0 2px+$i,-10px - $i*2,-5px - $i*7 )
+     }
+ }
+
+ .MedRings {
+     @include ringsThePrecious(50px,50px,5px,rgb(211, 94, 26),0 0 2px rgb(211, 94, 26),0px,0px )
+ }
+
+ .BigRing {
+     @include ringsThePrecious(150px,150px, 10px,rgb(239,216,7) ,0 0 4px rgb(239,216,7) , 0px,0px )
+ }

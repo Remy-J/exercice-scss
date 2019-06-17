@@ -1,0 +1,132 @@
+
+@import url(//db.onlinewebfonts.com/c/2e30c0e2ce7158a62133a0b328e71e72?family=Aniron);
+@import url(//db.onlinewebfonts.com/c/4f7fe6ba7e97d508afcb312983fef50e?family=Party);
+@import url(//db.onlinewebfonts.com/c/7248ccfa3390eb1a39a9ab9191cfbdb2?family=Tengwar+Annatar);
+
+.navbar{
+  
+    background-color: rgb(211, 94, 26);
+    border-color: #E7E7E7; 
+     
+   }
+   .nav-link{
+    font-family: 'Aniron';
+   font-size: 17px;
+  color:rgb(255, 255, 255);
+  
+   }
+
+
+h1 {
+    font-size: 20px;
+    font-family: "Aniron";
+    margin-left: 40%;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: "Aniron";
+}
+
+/* compiled scss */
+
+.Rings {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Rings1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 3px;
+    color: black;
+    box-shadow: 0 0 3px;
+    margin-left: -12px;
+    margin-top: -12px;
+  }
+  
+  .Rings2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 4px;
+    color: black;
+    box-shadow: 0 0 4px;
+    margin-left: -14px;
+    margin-top: -19px;
+  }
+  
+  .Rings3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 5px;
+    color: black;
+    box-shadow: 0 0 5px;
+    margin-left: -16px;
+    margin-top: -26px;
+  }
+  
+  .Rings4 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 6px;
+    color: black;
+    box-shadow: 0 0 6px;
+    margin-left: -18px;
+    margin-top: -33px;
+  }
+  
+  .Rings5 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 7px;
+    color: black;
+    box-shadow: 0 0 7px;
+    margin-left: -20px;
+    margin-top: -40px;
+  }
+  
+  .Rings6 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 8px;
+    color: black;
+    box-shadow: 0 0 8px;
+    margin-left: -22px;
+    margin-top: -47px;
+  }
+  
+  .MedRings {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 5px;
+    color: #d35e1a;
+    box-shadow: 0 0 2px #d35e1a;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  
+  .BigRing {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 10px;
+    color: #efd807;
+    box-shadow: 0 0 4px #efd807;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
